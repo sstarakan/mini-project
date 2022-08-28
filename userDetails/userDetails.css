@@ -1,0 +1,41 @@
+body{
+    background: white;
+}
+
+.user-details-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 40px;
+    font-size: 200%;
+    border-bottom: black solid 2px;
+}
+
+.posts-button {
+    width: 90%;
+    align-self: center;
+    margin: 5px;
+}
+
+.post-wrap {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:  40px;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px;
+    border: black 1px solid;
+}
+
+.display-changer{
+    display: none;
+}

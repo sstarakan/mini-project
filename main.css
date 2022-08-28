@@ -1,0 +1,17 @@
+body {
+    background: white;
+}
+
+.wrap-div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.user-div {
+    width: 40%;
+    margin: 10px;
+    border: black solid 2px;
+    padding: 10px;
+}

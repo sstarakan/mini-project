@@ -1,0 +1,17 @@
+.post-style{
+    font-size: 200%;
+    margin: 40px;
+    border-bottom: black solid 2px;
+}
+.comments-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px;
+}
+.comments-wrap>div{
+    width: 20%;
+    margin: 10px;
+    border: black solid 1px;
+    padding: 10px;
+}
